@@ -1,0 +1,56 @@
+div{
+    border:0.5px solid #000;
+}
+#cimaum {
+    background-color: #e83e8c;
+    height: 250px;
+}
+#cimadois {
+    background-color: orange;
+    height: 250px;    
+}
+#meio {
+    background-color: #0062cc;
+    height: 500px;    
+}
+#baixoum {
+    background-color: yellow;
+    height: 250px;
+}
+#baixodois {
+    background-color: coral;
+    height: 250px;
+}
+h5{
+    margin: 10px;
+    text-align: center;
+}
+#video{
+    width: 660px;
+    height: 480px;
+}
+.center{
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+@media screen and (max-width: 425px){
+    #cimaum, #cimadois{
+        min-height: 250px;
+    }
+    #meio{
+        height: 300px;
+    }
+    #baixoum, #baixodois{
+        min-height: 350px;
+    }
+    #video{
+        width: 200%;
+        height: 300px;
+    }
+    .center{
+        margin: 0px;
+    }
+}
